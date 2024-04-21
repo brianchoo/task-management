@@ -49,7 +49,7 @@ const NewProject: React.FC<NewProjectFunctionProps> = ({ onAdd, onCancel }) => {
 
   return (
     <>
-      <div className="w-[35rem] mt-16">
+      <div className="w-[35rem] mt-16 px-4 md:px-0">
         <Modal
           ref={modalRef}
           text={"Please fill up all the fields to create a new project."}

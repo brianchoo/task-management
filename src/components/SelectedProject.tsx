@@ -39,7 +39,7 @@ const SelectedProject: React.FC<ISelectedProjectProps> = ({
   };
 
   return (
-    <div className="w-[35rem] mt-16">
+    <div className="w-2/3 md:w-[35rem] mt-16 px-4 md:px-0">
       <Modal
         text={"Are you sure you want to delete this project?"}
         ref={modalRef}

@@ -11,7 +11,7 @@ const Button: React.FC<{
   };
   return (
     <button
-      className={`px-4 py-2 text-xs md:text-base rounded-md ml-3 ${buttonType[type]}`}
+      className={`px-3 md:px-4 py-2 text-xs md:text-base rounded-md md:ml-3 ${buttonType[type]}`}
       {...props}
     >
       {children}

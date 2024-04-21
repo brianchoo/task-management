@@ -28,10 +28,10 @@ const Tasks: FC<TaskProps> = ({ tasks, onAdd, onDelete, onComplete }) => {
   return (
     <>
       <h2 className="text-3xl font-bold text-stone-600 mb-8">Tasks</h2>
-      <div className="flex items-center gap-4">
+      <div className="flex md:items-center gap-4 flex-col md:flex-row">
         <input
           type="text"
-          className="w-64 px-2 py-1 rounded-sm bg-stone-200"
+          className="md:w-64 px-2 py-1 rounded-sm bg-stone-200"
           onChange={handleChange}
           value={enteredTask}
         />
