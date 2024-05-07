@@ -1,12 +1,13 @@
 # Task Management App
 
-Website Url: [https://classy-sunshine-5d1a17.netlify.app/](https://classy-sunshine-5d1a17.netlify.app/)
+Website Url: [d3fih5znci0gd3.cloudfront.net](d3fih5znci0gd3.cloudfront.net)
 
 ## What technology is used
 
 1. React.js
 2. TypeScript
 3. Tailwind CSS
+4. AWS
 
 ## Installation
 
